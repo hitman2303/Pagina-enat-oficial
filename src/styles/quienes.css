@@ -1,0 +1,112 @@
+/* CONTENEDOR */
+.quienes-container {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+  background-color: #f4f6f8;
+}
+
+/* CARD */
+.card-quienes {
+  display: flex;
+  align-items: stretch; /* CLAVE: ambos lados misma altura */
+  max-width: 1500px;
+  width: 100%;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+}
+
+/* ===================== */
+/* IMAGEN / CAROUSEL */
+/* ===================== */
+
+.quienes-media {
+  width: 40%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+}
+
+/* Bootstrap necesita altura heredada */
+.quienes-media .carousel,
+.quienes-media .carousel-inner,
+.quienes-media .carousel-item {
+  width: 100%;
+  height: 100%;
+}
+
+/* IMÁGENES */
+.quienes-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* llena sin deformar */
+  display: block;
+}
+
+/* Overlay sutil */
+.quienes-media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(0,0,0,0.15),
+    rgba(0,0,0,0)
+  );
+  pointer-events: none;
+}
+
+/* ===================== */
+/* TEXTO */
+/* ===================== */
+
+.quienes-body {
+  width: 60%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quienes-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+}
+
+.quienes-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #333;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+}
+
+/* ===================== */
+/* RESPONSIVE */
+/* ===================== */
+
+@media (max-width: 768px) {
+  .card-quienes {
+    flex-direction: column;
+  }
+
+  .quienes-media {
+    width: 100%;
+    height: 280px; /* altura fija solo en mobile */
+  }
+
+  .quienes-body {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .quienes-title {
+    text-align: center;
+  }
+}

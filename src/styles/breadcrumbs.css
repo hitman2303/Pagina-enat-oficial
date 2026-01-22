@@ -1,0 +1,18 @@
+.breadcrumbs {
+
+  visibility: hidden;
+}
+
+.breadcrumbs a {
+  color: #1e40af;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.breadcrumbs span {
+  margin: 0 6px;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}

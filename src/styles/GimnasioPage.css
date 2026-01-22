@@ -1,0 +1,234 @@
+.gym-detail-container {
+display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+  background-color: #f4f6f8;
+}
+
+.gym-detail-card {
+  display: flex;
+  max-width: 1400px;
+  width: 100%;
+  background: #fff;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+
+  /* Animación */
+  animation: fadeUp 0.6s ease-out both;
+}
+
+/* COLUMNA IZQUIERDA */
+.gym-detail-media {
+  width: 50%;
+  padding: 24px;
+  background: linear-gradient(135deg, #f8fafc, #eef2ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* MARCO DEL CAROUSEL */
+.gym-detail-media .carousel {
+  width: 100%;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+}
+/* IMÁGENES */
+.gym-detail-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(1.05) contrast(1.02);
+}
+.gym-detail-media .carousel {
+  border: 1px solid rgba(0,0,0,0.06);
+}
+
+.gym-detail-media .carousel,
+.gym-detail-media .carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+
+.gym-detail-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Carousel ocupa todo */
+.gym-detail-media .carousel,
+.gym-detail-media .carousel-inner,
+.gym-detail-media .carousel-item {
+  height: 100%;
+}
+.gym-detail-media .carousel-control-prev,
+.gym-detail-media .carousel-control-next,
+.gym-detail-media .carousel-indicators {
+  display: none;
+}
+/* COLUMNA DERECHA */
+.gym-detail-body {
+ width: 50%;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+}
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.gym-detail-title {
+  font-family: var(--font-title);
+  font-size: 2rem;
+  margin-bottom: 16px;
+  color: #1f2937;
+  text-align: center;
+  font-weight: 600;
+}
+.gym-map {
+  margin-top: 48px;
+  text-align: center;
+}
+
+.gym-map iframe {
+  width: 100%;
+  max-width: 900px;
+  height: 360px;
+  border-radius: 16px;
+  border: none;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+}
+.gym-detail-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #4b5563;
+  margin-bottom: 20px;
+}
+.gym-detail-inst {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #4b5563;
+}
+.gym-detail-schedule {
+  margin-top: 20px;
+}
+.gym-detail-schedule-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #1f2937;
+  text-align: center;
+}
+.gym-detail-schedule-day {
+  margin-bottom: 12px;
+  font-size: 1.2rem;
+}
+.gym-detail-info {
+  width: 50%;
+  padding: 40px;
+}
+.gym-detail-socials {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.gym-socials {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  margin-top: 14px;
+}
+.gym-socials a {
+  position: relative;
+  font-size: 2.2rem; /* 🔥 MÁS GRANDES SOLO ACÁ */
+  color: #1f2937;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.gym-socials a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  width: 0;
+  height: 3px;
+  background-color: #c1121f; /* rojo ITF */
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.gym-socials a:hover {
+  transform: translateY(-4px) scale(1.1);
+  color: #c1121f;
+}
+
+.gym-socials a:hover::after {
+  width: 100%;
+  left: 0;
+}
+@media (max-width: 768px) {
+  .gym-detail-card {
+    flex-direction: column;
+  }
+
+  .gym-detail-media {
+    width: 100%;
+    height: 320px; /* 🔑 altura controlada */
+    padding: 16px;
+  }
+
+  .gym-detail-media img {
+    object-fit: cover;
+  }
+
+  .gym-detail-body {
+    width: 100%;
+    padding: 28px 22px;
+  }
+  .gym-socials a {
+    font-size: 1.8rem; /* iconos escalan */
+  }
+}
+@media (max-width: 480px) {
+@media (max-width: 400px) {
+  .gym-detail-media {
+    height: 220px; /* 🔑 más chica en mobile */
+  }
+
+  .gym-detail-title {
+    font-size: 1.5rem;
+  }
+
+  .gym-detail-text,
+  .gym-detail-inst,
+  .gym-detail-schedule-day {
+    font-size: 1rem;
+  }
+}
+
+
+  .gym-socials {
+    gap: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .gym-socials a {
+    font-size: 2rem;
+  }
+    .gym-detail-media {
+    padding: 12px;
+  }
+
+  .gym-detail-media .carousel {
+    border-radius: 14px;
+  }
+}
+
