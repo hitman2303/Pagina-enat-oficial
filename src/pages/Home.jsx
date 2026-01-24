@@ -7,7 +7,7 @@ import Header from "@/componentes/Header";
 import Quienes from "../componentes/quienesomos";
 import Gimnasio from "../componentes/Gimnasio";
 import FormularioContacto from "../componentes/contactanos";
-import Footer from "../componentes/Footer";
+import Footer from "@/componentes/Footer";
 
 import Gimnasios from "../data/gimnasios";
 
