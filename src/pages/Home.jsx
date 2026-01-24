@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Navtae from "@/componentes/Nav";
+import Navtae from "@/componentes/Nav_TEMP";
 import Header from "@/componentes/Header";
 import Quienes from "../componentes/quienesomos";
 import Gimnasio from "../componentes/Gimnasio";
