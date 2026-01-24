@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet-async";
 import Gimnasios from "../data/gimnasios";
 import GimnasioDetalle from "../componentes/GimnasioDetalle";
 import Navtae from "@/componentes/Nav";
-import Footer from "../componentes/Footer";
+import Footer from "@/componentes/Footer";
 import "../styles/GimnasioPage.css";
 export default function GimnasioPage() {
   const { slug } = useParams();
