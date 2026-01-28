@@ -459,9 +459,9 @@ const Gimnasios =[
       maps: "https://maps.app.goo.gl/yuNTfxMnPtFPSqqb9",
       mapsEmbed:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3279.2130692765973!2d-58.606616!3d-34.7250233!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc50068dddae7%3A0xabc5e21d791fdd11!2sTaekwondo%20ENAT%20el%20fort%C3%ADn%20laferrere!5e0!3m2!1ses-419!2sar!4v1769098455530!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/fortin/1.jpg",
-        "/imgs/fortin/2.jpg",
-        "/imgs/fortin/3.jpg"
+        "/imgs/fortin/1.jpeg",
+        "/imgs/fortin/2.jpeg",
+        "/imgs/fortin/3.jpeg"
       ],
       horarios: {
         Miercoles: [
@@ -489,9 +489,9 @@ const Gimnasios =[
       maps: "https://maps.app.goo.gl/v182CecS3UU1qu318",
       mapsEmbed:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3279.2130692765973!2d-58.606616!3d-34.7250233!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc538cb0a3c9b%3A0xadc72abc037f37c4!2sUTEAM%20Escuelita%20de%20futbol-Patin!5e0!3m2!1ses-419!2sar!4v1769098481816!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/uteam/1.jpg",
-        "/imgs/uteam/2.jpg",
-        "/imgs/uteam/3.jpg"
+        "/imgs/uteam/1.jpeg",
+        "/imgs/uteam/2.jpeg",
+        "/imgs/uteam/3.jpeg"
       ],
       horarios: {
         Lunes: [

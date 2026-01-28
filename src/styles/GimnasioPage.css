@@ -36,15 +36,26 @@ display: flex;
   box-shadow: 0 12px 28px rgba(0,0,0,0.12);
 }
 /* IMÁGENES */
-
+/* Imagen */
+.imgsCarrousel {
+  width: 100%;
+  height: 100%;
+  object-fit: contain !important;
+  object-position: center !important;
+  background-color: #ffff;
+}
 .gym-detail-media img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   filter: saturate(1.05) contrast(1.02);
 }
+
 .gym-detail-media .carousel {
-  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 18px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
 }
 
 .gym-detail-media .carousel,
@@ -52,14 +63,7 @@ display: flex;
   width: 100%;
   height: 100%;
 }
-
-.gym-detail-media img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-/* Carousel ocupa todo */
+/* Carousel */
 .gym-detail-media .carousel,
 .gym-detail-media .carousel-inner,
 .gym-detail-media .carousel-item {
@@ -172,15 +176,16 @@ display: flex;
   left: 0;
 }
 @media (max-width: 768px) {
-  .gym-detail-card {
+    .gym-detail-card {
     flex-direction: column;
   }
 
   .gym-detail-media {
     width: 100%;
-    height: 320px; /* 🔑 altura controlada */
+    height: 320px;
     padding: 16px;
   }
+
 
   .gym-detail-media img {
     object-fit: cover;
@@ -196,10 +201,10 @@ display: flex;
 }
 @media (max-width: 480px) {
 @media (max-width: 400px) {
-  .gym-detail-media {
-    height: 220px; /* 🔑 más chica en mobile */
+   .gym-detail-media {
+    height: 220px;
+    padding: 12px;
   }
-
   .gym-detail-title {
     font-size: 1.5rem;
   }
@@ -229,9 +234,7 @@ display: flex;
   }
 }
 @media (min-width: 769px) {
-  .gym-detail-media img {
-    width: auto;
+  .gym-detail-media {
+    aspect-ratio: 3 / 4;
   }
-  
 }
-
