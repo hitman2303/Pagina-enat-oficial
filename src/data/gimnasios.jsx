@@ -101,13 +101,15 @@ const Gimnasios =[
       maps: "https://maps.app.goo.gl/9NW9c8JdPw55DcWo6",
       mapsEmbed:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13132.132419107931!2d-58.47690448261717!3d-34.62860369999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9890e28f54d%3A0xad7fcad6daaa5ed1!2sAsociaci%C3%B3n%20Calabresa%20-%20La%20Providencia!5e0!3m2!1ses-419!2sar!4v1769097575583!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/calabresa/1.jpg",
-        "/imgs/calabresa/2.jpg",
-        "/imgs/calabresa/3.jpg"
+        "/imgs/calabresa/1.jpeg",
+        "/imgs/calabresa/2.jpeg",
+        "/imgs/calabresa/3.jpeg"
       ],
       horarios: {
+        Lunes: [
+          "17:30 hs Infantiles"
+        ],
         Martes: [
-          "17:30 hs Infantiles",
           "18:30 hs Adultos"
         ],
         Jueves: [
@@ -265,7 +267,12 @@ const Gimnasios =[
         miercoles:[
           "18:00 hs Infantiles",
           "19:00 hs Adolecentes y adultos"
-        ],sabados: [
+        ],
+        viernes:[
+          "18:00 hs Infantiles",
+          "19:00 hs Adolecentes y adultos"
+        ]
+        ,sabados: [
           "10:00 hs Infantiles",
           "11:00 hs Adolecentes y adultos"
         ]
@@ -365,7 +372,7 @@ const Gimnasios =[
           "17:30 hs Infantiles"
         ],
         Viernes: [
-          "19:30 hs Adultos"
+          "19:30 hs Adolecentes y adultos"
         ],
         Sábados: [
           "13:15 hs Adolecentes"
@@ -511,9 +518,9 @@ const Gimnasios =[
       maps: "https://maps.app.goo.gl/Me66JDRpMSFV6q627",
       mapsEmbed:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3279.1777414104113!2d-58.6109505!3d-34.7259139!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc428bcae2f1f%3A0xbd99dde01ce37ea5!2sClub%20Social%20y%20Deportivo%20Nueva%20Juventud!5e0!3m2!1ses-419!2sar!4v1769098510586!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/nueva-juventud/1.jpg",
-        "/imgs/nueva-juventud/2.jpg",
-        "/imgs/nueva-juventud/3.jpg"
+        "/imgs/nueva-juventud/1.jpeg",
+        "/imgs/nueva-juventud/2.jpeg",
+        "/imgs/nueva-juventud/3.jpeg"
       ],
       horarios: {
         Miercoles: [
