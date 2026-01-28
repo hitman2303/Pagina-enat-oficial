@@ -36,6 +36,7 @@ display: flex;
   box-shadow: 0 12px 28px rgba(0,0,0,0.12);
 }
 /* IMÁGENES */
+
 .gym-detail-media img {
   width: 100%;
   height: 100%;
@@ -64,11 +65,7 @@ display: flex;
 .gym-detail-media .carousel-item {
   height: 100%;
 }
-.gym-detail-media .carousel-control-prev,
-.gym-detail-media .carousel-control-next,
-.gym-detail-media .carousel-indicators {
-  display: none;
-}
+
 /* COLUMNA DERECHA */
 .gym-detail-body {
  width: 50%;
@@ -230,5 +227,11 @@ display: flex;
   .gym-detail-media .carousel {
     border-radius: 14px;
   }
+}
+@media (min-width: 769px) {
+  .gym-detail-media img {
+    width: auto;
+  }
+  
 }
 

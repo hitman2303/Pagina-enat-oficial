@@ -12,7 +12,7 @@ export default function GimnasioDetalle({ gimnasio }) {
     <Carousel fade>
       {gimnasio.imagenes.map((img, i) => (
         <Carousel.Item key={i}>
-          <img src={img} alt={`Imagen ${i + 1} de ${gimnasio.nombre}`} 
+          <img src={img}  className="imgsCarrousel"alt={`Imagen ${i + 1} de ${gimnasio.nombre}`} 
             loading="lazy"
             decoding="async"
           />
