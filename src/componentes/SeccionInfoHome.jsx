@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../styles/seccionInfoHome.css";
+import "../styles/SeccionInfoHome.css";
 
 const SeccionInfoHome = () => {
   return (
