@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-function Navtae({ items }) {
+function Navtae({ items = [] }) {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>

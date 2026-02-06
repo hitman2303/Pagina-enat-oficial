@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+.info-page-main {
+  padding: 100px 24px;
+  background: #f1f5f9;
+}
+
+.info-page-card {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 22px;
+  box-shadow: 0 20px 45px rgba(0,0,0,0.15);
+}
+.info-page-card {
+  display: flex;
+  flex-direction: column; /* 📱 mobile */
+  background: #ffffff;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+  max-width: 1100px;
+}
+
+/* IMAGEN */
+.info-page-image {
+  width: 100%;
+  height: 240px;
+}
+
+.info-page-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+/* TEXTO */
+.info-page-content {
+  padding: 28px 24px;
+}
+
+.info-page-card img {
+  width: 100%;
+  border-radius: 18px;
+  margin-bottom: 32px;
+}
+
+.info-text {
+  font-family: "Inter", "Segoe UI", "Calibri", "Arial", sans-serif;
+  font-size: 1.1rem;              /* similar a Word 11 */
+  line-height: 1.65;
+  color: #1f2937;               /* gris elegante */
+  max-width: 780px;
+  margin: 0 auto;
+}
+.info-italic {
+  font-style: italic;
+  font-size: 1.2rem;   /* ≈ Aptos 10 */
+  color: #374151;
+  margin-top: 20px;
+  display: block;
+}
+.info-signature {
+  font-style: italic;
+  font-size: 1rem;
+  color: #4b5563;
+  margin-top: 6px;
+  display: block;
+}
+
+
+/* MOBILE */
+@media (max-width: 480px) {
+  .info-page-card {
+    padding: 24px;
+  }
+}
+@media (min-width: 768px) {
+  .info-page-card {
+    flex-direction: row; /* 🔑 imagen izquierda / texto derecha */
+    align-items: stretch;
+  }
+
+  .info-page-image {
+    width: 45%;
+    height: auto;
+  }
+
+  .info-page-image img {
+    height: 100%;
+  }
+
+  .info-page-content {
+    width: 55%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media (min-width: 1024px) {
+  .info-page-content {
+    padding: 56px;
+  }
+
+  .info-page-image {
+    width: 40%;
+  }
+
+  .info-page-content {
+    width: 60%;
+  }
+}

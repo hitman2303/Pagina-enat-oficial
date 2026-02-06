@@ -358,9 +358,9 @@ const Gimnasios =[
       maps: "https://maps.app.goo.gl/tz67WAmLPntfQtrW6",
       mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d345.1570561582038!2d-58.39674547592455!3d-34.611599804295786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccae7d7e40f69%3A0xd16eafadc83019c!2sLa%20Grieta!5e0!3m2!1ses-419!2sar!4v1769098249114!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/la-grieta/1.jpg",
-        "/imgs/la-grieta/2.jpg",
-        "/imgs/la-grieta/3.jpg"
+        "/imgs/la-grieta/1.jpeg",
+        "/imgs/la-grieta/2.jpeg",
+        "/imgs/la-grieta/3.jpeg"
       ],
       horarios: {
         Martes: [
@@ -395,9 +395,9 @@ const Gimnasios =[
       maps: "https://maps.app.goo.gl/exEWPUgzUhmaW88Z6",
       mapsEmbed:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d205.23151438596062!2d-58.39901173664137!3d-34.61163989255448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccae8bd36417d%3A0xc9f13bbfc3593add!2sPichincha%20180%2C%20C1082ACD%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1769098346994!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/vertiente/1.jpg",
-        "/imgs/vertiente/2.jpg",
-        "/imgs/vertiente/3.jpg"
+        "/imgs/vertiente/1.jpeg",
+        "/imgs/vertiente/2.jpeg",
+        "/imgs/vertiente/3.jpeg"
       ],
       horarios: {
         Miercoles: [

@@ -8,7 +8,7 @@ import Quienes from "../componentes/quienesomos";
 import Gimnasio from "../componentes/Gimnasio";
 import FormularioContacto from "../componentes/contactanos";
 import Footer from "@/componentes/Footer";
-
+import SeccionInfoHome from "../componentes/SeccionInfoHome";
 import Gimnasios from "../data/gimnasios";
 
 export default function Home() {
@@ -44,7 +44,9 @@ export default function Home() {
         <section id="quienes-somos">
           <Quienes />
         </section>
-
+        <section id="nuestra-historia">
+          <SeccionInfoHome />
+        </section>
         <section id="gimnasios">
           <h2 id="h2Gim">Nuestros gimnasios</h2>
 
