@@ -1,5 +1,6 @@
 import Footer from "../componentes/Footer";
 import "../styles/seccionInfoPage.css";
+
 import Navtae from "../componentes/Nav";
 
 const SeccionInfoPage = () => {
