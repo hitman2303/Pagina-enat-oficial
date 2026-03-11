@@ -280,7 +280,6 @@ const Gimnasios =[
       instructores: [
         "Enrique Bullevarcich V DAN",
         "Juan Cruz Escobar II DAN",
-        "Sebastian Vera I DAN"
       ],
       redes: {
     whatsapp: "https://wa.me/1541427292",
@@ -477,35 +476,6 @@ const Gimnasios =[
       ], 
       redes: {
   whatsapp: "https://wa.me/1140556459",
-  instagram: "https://instagram.com/Taekwondo_do_vallejosfilippe",
-  facebook: "https://www.facebook.com/Taekwondo Federación caballito",
-  tiktok: "https://www.tiktok.com/@taekwondovallejos"
-}
-    },{
-      logo: "/imgs/uteamph.jpg",
-      nombre: "UTEAM",
-      slug: "uteam",
-      direccion: " Zarate 3200 (Laferrere)",
-      maps: "https://maps.app.goo.gl/v182CecS3UU1qu318",
-      mapsEmbed:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3279.2130692765973!2d-58.606616!3d-34.7250233!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc538cb0a3c9b%3A0xadc72abc037f37c4!2sUTEAM%20Escuelita%20de%20futbol-Patin!5e0!3m2!1ses-419!2sar!4v1769098481816!5m2!1ses-419!2sar",
-      imagenes: [
-        "/imgs/uteam/1.jpeg",
-        "/imgs/uteam/2.jpeg",
-        "/imgs/uteam/3.jpeg"
-      ],
-      horarios: {
-        Lunes: [
-          "18:00 hs Infantiles y adolecentes"
-        ],
-        Viernes: [
-          "18:00 hs Infantiles y adolecentes"
-        ]
-      },
-      instructores: [
-        "Carlos Vallejos VI DAN"
-      ],
-      redes: {
-  whatsapp: "https://wa.me/1132132816",
   instagram: "https://instagram.com/Taekwondo_do_vallejosfilippe",
   facebook: "https://www.facebook.com/Taekwondo Federación caballito",
   tiktok: "https://www.tiktok.com/@taekwondovallejos"
