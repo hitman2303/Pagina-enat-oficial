@@ -57,9 +57,9 @@ const Gimnasios =[
       maps: "https://maps.app.goo.gl/gaYX7VTy2py874v56",
       mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1641.511947836532!2d-58.42670918555747!3d-34.62883642478778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca52e454d945%3A0x81542526e7984357!2sFederaci%C3%B3n%20Caballito!5e0!3m2!1ses-419!2sar!4v1769095984660!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/federacion/1.jpg",
-        "/imgs/federacion/2.jpg",
-        "/imgs/federacion/3.jpg"
+        "/imgs/federacion/1.jpeg",
+        "/imgs/federacion/2.jpeg",
+        "/imgs/federacion/3.jpeg"
       ],
       horarios: {
         Lunes: [
@@ -135,9 +135,9 @@ const Gimnasios =[
       maps:"https://maps.app.goo.gl/LspnazYuUNVdVE446",
       mapsEmbed:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d410.4377997526805!2d-58.3749317!3d-34.6167423!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb2af59c9b6d%3A0xa54886cb2d329691!2sInstituto%20Industrial%20Luis%20A.%20Huergo!5e0!3m2!1ses-419!2sar!4v1769097613563!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/huergo/1.jpg",
-        "/imgs/huergo/2.jpg",
-        "/imgs/huergo/3.jpg"
+        "/imgs/huergo/1.jpeg",
+        "/imgs/huergo/2.jpeg",
+        "/imgs/huergo/3.jpeg"
       ],
       horarios: {
         Miercoles: [
@@ -429,9 +429,9 @@ const Gimnasios =[
       maps: "https://maps.app.goo.gl/gxb55NBmZmUrArrM7",
       mapsEmbed:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2757.2914333764534!2d-58.612959909554725!3d-34.73063155395713!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc5253eb639cb%3A0x77ddb83e591dc933!2sClases%20de%20taekwondo%20ENAT%20sociedad%20de%20fomento!5e0!3m2!1ses-419!2sar!4v1769098407679!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/sociedad/1.jpg",
-        "/imgs/sociedad/2.jpg",
-        "/imgs/sociedad/3.jpg"
+        "/imgs/sociedad/1.jpeg",
+        "/imgs/sociedad/2.jpeg",
+        "/imgs/sociedad/3.jpeg"
       ],
       horarios: {
         Jueves: [
