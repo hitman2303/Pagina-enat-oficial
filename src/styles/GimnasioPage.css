@@ -24,7 +24,7 @@ display: flex;
 ======================= */
 .gym-detail-media{
     flex:1;
-    padding:24px;
+    padding:2px;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -342,4 +342,10 @@ display: flex;
 
 }
 
+}
+
+@media (min-width:1200px){
+.imgsCarrousel{
+    height:500px;       
+}
 }
