@@ -159,8 +159,7 @@ const Gimnasios =[
       mapsEmbed:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d820.5831803454121!2d-58.5132849!3d-34.6462993!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc995259866eb%3A0x392d25e78a814223!2sPolideportivo%20Santojanni!5e0!3m2!1ses-419!2sar!4v1769097759940!5m2!1ses-419!2sar",
       imagenes: [
         "/imgs/santojanni/1.jpg",
-        "/imgs/santojanni/2.jpg",
-        "/imgs/santojanni/3.jpg"
+        "/imgs/santojanni/2.jpg"
       ],
       horarios: {
         Martes: [
