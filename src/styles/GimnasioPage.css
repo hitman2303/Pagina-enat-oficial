@@ -39,14 +39,9 @@ display: flex;
 /* Imagen */
 .imgsCarrousel {
   width: 100%;
-  height: 100%;
+  aspect-ratio: 16 / 9;
   object-fit: cover !important;
-  object-position: center !important;
-  background-color: linear-gradient(
-180deg,
-#f7f7f7,
-#ececec
-);
+  border-radius: 16px;
 }
 .gym-detail-media img {
   width: 100%;

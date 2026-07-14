@@ -9,10 +9,8 @@ const Gimnasios =[
       imagenes: [
         "/imgs/villaluro/1.jpg",
         "/imgs/villaluro/2.jpg",
-        "/imgs/villaluro/3.jpg"
       ],
       horarios: {
-
         Lunes: [
           "18:00 hs Infantiles",
           "19:00 hs Adolecentes"
@@ -57,9 +55,9 @@ const Gimnasios =[
       maps: "https://maps.app.goo.gl/gaYX7VTy2py874v56",
       mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1641.511947836532!2d-58.42670918555747!3d-34.62883642478778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca52e454d945%3A0x81542526e7984357!2sFederaci%C3%B3n%20Caballito!5e0!3m2!1ses-419!2sar!4v1769095984660!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/federacion/1.jpeg",
-        "/imgs/federacion/2.jpeg",
-        "/imgs/federacion/3.jpeg"
+        "/imgs/federacion/1.jpg",
+        "/imgs/federacion/2.jpg",
+        "/imgs/federacion/3.jpg"
       ],
       horarios: {
         Lunes: [
@@ -101,9 +99,9 @@ const Gimnasios =[
       maps: "https://maps.app.goo.gl/9NW9c8JdPw55DcWo6",
       mapsEmbed:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13132.132419107931!2d-58.47690448261717!3d-34.62860369999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9890e28f54d%3A0xad7fcad6daaa5ed1!2sAsociaci%C3%B3n%20Calabresa%20-%20La%20Providencia!5e0!3m2!1ses-419!2sar!4v1769097575583!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/calabresa/1.jpeg",
-        "/imgs/calabresa/2.jpeg",
-        "/imgs/calabresa/3.jpeg"
+        "/imgs/calabresa/1.jpg",
+        "/imgs/calabresa/2.jpg",
+        "/imgs/calabresa/3.jpg"
       ],
       horarios: {
         Lunes: [
@@ -135,9 +133,8 @@ const Gimnasios =[
       maps:"https://maps.app.goo.gl/LspnazYuUNVdVE446",
       mapsEmbed:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d410.4377997526805!2d-58.3749317!3d-34.6167423!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb2af59c9b6d%3A0xa54886cb2d329691!2sInstituto%20Industrial%20Luis%20A.%20Huergo!5e0!3m2!1ses-419!2sar!4v1769097613563!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/huergo/1.jpeg",
-        "/imgs/huergo/2.jpeg",
-        "/imgs/huergo/3.jpeg"
+        "/imgs/huergo/1.jpg",
+        "/imgs/huergo/2.jpg"
       ],
       horarios: {
         Miercoles: [
@@ -193,8 +190,7 @@ const Gimnasios =[
       mapsEmbed: "https://www.google.com/maps/embed?pb=!3m2!1ses-419!2sar!4v1769098003193!5m2!1ses-419!2sar!6m8!1m7!1sZPKsgNHAv8bwfyc5i1_F7g!2m2!1d-34.68857003140448!2d-58.4773557758297!3f349.4795494612969!4f2.6272375242905923!5f0.7820865974627469",
       imagenes: [
         "/imgs/ideal/1.jpg",
-        "/imgs/ideal/2.jpg",
-        "/imgs/ideal/3.jpg"
+        "/imgs/ideal/2.jpg"
       ],
       horarios: {
         Lunes: [
@@ -225,8 +221,7 @@ const Gimnasios =[
       mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.892151781156!2d-58.5158755!3d-34.6574265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc90bfcbabbb3%3A0x3dfd0406783e39bf!2sCentro%20Cultural%20y%20Recreativo%20As%C3%ADs!5e0!3m2!1ses-419!2sar!4v1769098037921!5m2!1ses-419!2sar",
       imagenes: [
         "/imgs/asis/1.jpg",
-        "/imgs/asis/2.jpg",
-        "/imgs/asis/3.jpg"
+        "/imgs/asis/2.jpg"
       ],
       horarios: {
         Martes: [
@@ -256,8 +251,7 @@ const Gimnasios =[
       mapsEmbed:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.845128833525!2d-58.464137099999995!3d-34.63335380000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9006a43f56d%3A0x5a9ce565d215040!2sQUICK%20PLANET!5e0!3m2!1ses-419!2sar!4v1769098059885!5m2!1ses-419!2sar",
       imagenes: [
         "/imgs/quick-planet/1.jpg",
-        "/imgs/quick-planet/2.jpg",
-        "/imgs/quick-planet/3.jpg"
+        "/imgs/quick-planet/2.jpg"
       ],
       horarios: {
         lunes:[
@@ -296,8 +290,7 @@ const Gimnasios =[
       mapsEmbed:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d205.1839773051819!2d-58.4637917!3d-34.6308646!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9007492ce61%3A0x9fa1fb2b435e847d!2sEspacio%20Cultural%20Ferm%C3%ADn!5e0!3m2!1ses-419!2sar!4v1769098104383!5m2!1ses-419!2sar",
       imagenes: [
         "/imgs/fermin/1.jpg",
-        "/imgs/fermin/2.jpg",
-        "/imgs/fermin/3.jpg"
+        "/imgs/fermin/2.jpg"
       ],
       horarios: {
         Martes: [
@@ -328,8 +321,7 @@ const Gimnasios =[
       mapsEmbed:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3282.6779295701717!2d-58.4593748!3d-34.6375784!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca2cdc3b5423%3A0x9c21fd5e94f8d667!2sEl%20Poli!5e0!3m2!1ses-419!2sar!4v1769098190470!5m2!1ses-419!2sar",
       imagenes: [
         "/imgs/poli-flores/1.jpg",
-        "/imgs/poli-flores/2.jpg",
-        "/imgs/poli-flores/3.jpg"
+        "/imgs/poli-flores/2.jpg"
       ],
       horarios: {
         Lunes: [
@@ -357,9 +349,9 @@ const Gimnasios =[
       maps: "https://maps.app.goo.gl/tz67WAmLPntfQtrW6",
       mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d345.1570561582038!2d-58.39674547592455!3d-34.611599804295786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccae7d7e40f69%3A0xd16eafadc83019c!2sLa%20Grieta!5e0!3m2!1ses-419!2sar!4v1769098249114!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/la-grieta/1.jpeg",
-        "/imgs/la-grieta/2.jpeg",
-        "/imgs/la-grieta/3.jpeg"
+        "/imgs/la-grieta/1.jpg",
+        "/imgs/la-grieta/2.jpg",
+        "/imgs/la-grieta/3.jpg"
       ],
       horarios: {
         Martes: [
@@ -394,9 +386,9 @@ const Gimnasios =[
       maps: "https://maps.app.goo.gl/exEWPUgzUhmaW88Z6",
       mapsEmbed:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d205.23151438596062!2d-58.39901173664137!3d-34.61163989255448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccae8bd36417d%3A0xc9f13bbfc3593add!2sPichincha%20180%2C%20C1082ACD%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1769098346994!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/vertiente/1.jpeg",
-        "/imgs/vertiente/2.jpeg",
-        "/imgs/vertiente/3.jpeg"
+        "/imgs/vertiente/1.jpg",
+        "/imgs/vertiente/2.jpg",
+        "/imgs/vertiente/3.jpg"
       ],
       horarios: {
         Miercoles: [
@@ -429,9 +421,9 @@ const Gimnasios =[
       maps: "https://maps.app.goo.gl/gxb55NBmZmUrArrM7",
       mapsEmbed:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2757.2914333764534!2d-58.612959909554725!3d-34.73063155395713!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc5253eb639cb%3A0x77ddb83e591dc933!2sClases%20de%20taekwondo%20ENAT%20sociedad%20de%20fomento!5e0!3m2!1ses-419!2sar!4v1769098407679!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/sociedad/1.jpeg",
-        "/imgs/sociedad/2.jpeg",
-        "/imgs/sociedad/3.jpeg"
+        "/imgs/sociedad/1.jpg",
+        "/imgs/sociedad/2.jpg",
+        "/imgs/sociedad/3.jpg"
       ],
       horarios: {
         Jueves: [
@@ -458,9 +450,9 @@ const Gimnasios =[
       maps: "https://maps.app.goo.gl/yuNTfxMnPtFPSqqb9",
       mapsEmbed:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3279.2130692765973!2d-58.606616!3d-34.7250233!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc50068dddae7%3A0xabc5e21d791fdd11!2sTaekwondo%20ENAT%20el%20fort%C3%ADn%20laferrere!5e0!3m2!1ses-419!2sar!4v1769098455530!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/fortin/1.jpeg",
-        "/imgs/fortin/2.jpeg",
-        "/imgs/fortin/3.jpeg"
+        "/imgs/fortin/1.jpg",
+        "/imgs/fortin/2.jpg",
+        "/imgs/fortin/3.jpg"
       ],
       horarios: {
         Miercoles: [
@@ -488,9 +480,9 @@ const Gimnasios =[
       maps: "https://maps.app.goo.gl/Me66JDRpMSFV6q627",
       mapsEmbed:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3279.1777414104113!2d-58.6109505!3d-34.7259139!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc428bcae2f1f%3A0xbd99dde01ce37ea5!2sClub%20Social%20y%20Deportivo%20Nueva%20Juventud!5e0!3m2!1ses-419!2sar!4v1769098510586!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/nueva-juventud/1.jpeg",
-        "/imgs/nueva-juventud/2.jpeg",
-        "/imgs/nueva-juventud/3.jpeg"
+        "/imgs/nueva-juventud/1.jpg",
+        "/imgs/nueva-juventud/2.jpg",
+        "/imgs/nueva-juventud/3.jpg"
       ],
       horarios: {
         Miercoles: [
@@ -509,6 +501,34 @@ const Gimnasios =[
   facebook: "https://www.facebook.com/Taekwondo Federación caballito",
   tiktok: "https://www.tiktok.com/@taekwondovallejos"
 }
+    },{
+      logo: "/imgs/sociedadcastillo.jpg",
+      nombre: "Sociedad de fomento Carlos Casares",
+      slug: "Sociedad-de-fomento-Carlos-Casares",
+      direccion: "San Matias 1390 (Rafael Castillo)",
+      maps: "https://maps.app.goo.gl/R13Ftnc9wLJqTAsm8",
+      mapsEmbed:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2703.4702115927903!2d-58.6142951!3d-34.7041789!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc6ecc1554681%3A0xdc4b7f7ed2d6b5e6!2sSociedad%20De%20Fomento%20Carlos%20Casares!5e1!3m2!1ses-419!2sar!4v1783999911254!5m2!1ses-419!2sar",
+      imagenes: [
+        "/imgs/sociedad_castillo/1.jpg",
+        "/imgs/sociedad_castillo/2.jpg"
+      ],
+      horarios: {
+        Martes: [
+          "18:00 hs Infantiles y adolecentes"
+        ],
+        Jueves: [
+          "18:00 hs Infantiles y adolecentes"
+        ]
+      },
+      instructores: [
+        "Carlos Vallejos VI  DAN"
+      ],
+      redes: {
+    whatsapp: "https://wa.me/1532132816",
+    instagram: "https://instagram.com/Taekwondo_do_vallejosfilippe",
+    facebook: "https://www.facebook.com/Taekwondo Federación caballito",
+    tiktok: "https://www.tiktok.com/@taekwondovallejos"
     }
+  }
   ]
   export default Gimnasios;
