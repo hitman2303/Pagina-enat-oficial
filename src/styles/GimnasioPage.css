@@ -346,6 +346,6 @@ display: flex;
 
 @media (min-width:1200px){
 .imgsCarrousel{
-    height:500px;       
+    width: none;
 }
 }
