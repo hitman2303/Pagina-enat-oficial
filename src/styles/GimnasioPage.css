@@ -18,63 +18,105 @@ display: flex;
   animation: fadeUp 0.6s ease-out both;
 }
 
-/* COLUMNA IZQUIERDA */
-.gym-detail-media {
-  width: 420px;
-  padding: 24px;
-  background: linear-gradient(135deg, #f8fafc, #eef2ff);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-/* MARCO DEL CAROUSEL */
-.gym-detail-media .carousel {
-  width: 100%;
-  border-radius: 18px;
-  overflow: hidden;
-  background: #fff;
-  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
-}
-/* IMÁGENES */
-/* Imagen */
-.imgsCarrousel {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover !important;
-  border-radius: 16px;
-}
-.gym-detail-media img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  filter: saturate(1.05) contrast(1.02);
+/* COLUMNA IZQUIERDA
+=======================
+    CARRUSEL
+======================= */
+.gym-detail-media{
+    flex:1;
+    padding:24px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#f8fafc,#eef2ff);
 }
 
-.gym-detail-media .carousel {
-  border-radius: 18px;
-  overflow: hidden;
-  background: #fff;
-  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+.gym-detail-media .carousel{
+    width:100%;
+    overflow:hidden;
+    border-radius:20px;
+    background:#fff;
+    border:1px solid rgba(0,0,0,.08);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
 }
 
-.gym-detail-media .carousel,
-.gym-detail-media .carousel-inner {
-  width: 100%;
-  height: 100%;
-}
-/* Carousel */
-.gym-detail-media .carousel,
-.gym-detail-media .carousel-inner,
-.gym-detail-media .carousel-item {
-  height: 100%;
+.carousel-item{
+    overflow:hidden;
 }
 
+/* TODAS LAS IMÁGENES TENDRÁN EL MISMO TAMAÑO */
+
+.imgsCarrousel{
+
+    display:block;
+
+    width:100%;
+
+    height:430px;
+
+    object-fit:cover;
+
+    object-position:center;
+
+    transition:transform 7s ease;
+
+}
+
+/* Pequeño efecto tipo "Ken Burns" */
+
+.carousel-item.active .imgsCarrousel{
+
+    transform:scale(1.06);
+
+}
+/* ==========================================================
+   INDICADORES DEL CARRUSEL
+========================================================== */
+
+.carousel-indicators{
+
+    margin-bottom:12px;
+
+}
+
+.carousel-indicators [data-bs-target]{
+
+    width:12px;
+
+    height:12px;
+
+    border-radius:50%;
+
+    border:none;
+
+    opacity:.5;
+
+    transition:.3s;
+
+}
+
+.carousel-indicators .active{
+
+    width:30px;
+
+    border-radius:999px;
+
+    opacity:1;
+
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+
+    display:none;
+
+}
 /* COLUMNA DERECHA */
 .gym-detail-body {
-  width: 50%;
-  padding: 48px;
-  display: flex;
-  flex-direction: column;
+    flex:1;
+    padding:48px;
+    display:flex;
+    flex-direction:column;
 }
 @keyframes fadeUp {
   from {
@@ -174,66 +216,130 @@ display: flex;
   width: 100%;
   left: 0;
 }
-@media (max-width: 768px) {
-    .gym-detail-card {
-    flex-direction: column;
-  }
-
-  .gym-detail-media {
-    width: 100%;
-    height: 320px;
-    padding: 16px;
-  }
 
 
-  .gym-detail-media img {
-    object-fit: cover;
-  }
+@media (max-width:992px){
 
-  .gym-detail-body {
-    width: 100%;
-    padding: 28px 22px;
-  }
-  .gym-socials a {
-    font-size: 1.8rem; /* iconos escalan */
-  }
-}
-@media (max-width: 480px) {
-@media (max-width: 400px) {
-   .gym-detail-media {
-    height: 220px;
-    padding: 12px;
-  }
-  .gym-detail-title {
-    font-size: 1.5rem;
-  }
+.gym-detail-card{
 
-  .gym-detail-text,
-  .gym-detail-inst,
-  .gym-detail-schedule-day {
-    font-size: 1rem;
-  }
+    flex-direction:column;
+
 }
 
+.gym-detail-media{
 
-  .gym-socials {
-    gap: 20px;
-  }
-}
-@media (max-width: 400px) {
-  .gym-socials a {
-    font-size: 2rem;
-  }
-    .gym-detail-media {
-    padding: 12px;
-  }
+    width:100%;
 
-  .gym-detail-media .carousel {
-    border-radius: 14px;
-  }
+    padding:18px;
+
 }
-@media (min-width: 769px) {
-  .gym-detail-media {
-    aspect-ratio: 3 / 4;
-  }
+
+.gym-detail-body{
+
+    width:100%;
+
+    padding:34px;
+
+}
+
+.imgsCarrousel{
+
+    height:360px;
+
+}
+
+.gym-socials a{
+
+    font-size:2rem;
+
+}
+
+}
+
+@media (max-width:768px){
+
+.gym-detail-container{
+
+    padding:30px 12px;
+
+}
+
+.gym-detail-card{
+
+    border-radius:18px;
+
+}
+
+.gym-detail-media{
+
+    padding:14px;
+
+}
+
+.imgsCarrousel{
+
+    height:270px;
+
+}
+
+.gym-detail-body{
+
+    padding:24px 18px;
+
+}
+
+.gym-detail-title{
+
+    font-size:1.8rem;
+
+}
+
+.gym-detail-text,
+.gym-detail-inst,
+.gym-detail-schedule-day{
+
+    font-size:1rem;
+
+}
+
+.gym-socials{
+
+    gap:20px;
+
+}
+
+.gym-socials a{
+
+    font-size:1.9rem;
+
+}
+
+}
+
+@media (max-width:420px){
+
+.imgsCarrousel{
+
+    height:220px;
+
+}
+
+.gym-detail-title{
+
+    font-size:1.55rem;
+
+}
+
+.gym-socials{
+
+    gap:18px;
+
+}
+
+.gym-socials a{
+
+    font-size:1.8rem;
+
+}
+
 }

@@ -9,10 +9,13 @@ export default function GimnasioDetalle({ gimnasio }) {
 
         {/* COLUMNA IZQUIERDA – CAROUSEL */}
         <div className="gym-detail-media">
-    <Carousel fade>
+    <Carousel fade interval={4500}
+        pause={false}
+        touch>
+
       {gimnasio.imagenes.map((img, i) => (
         <Carousel.Item key={i}>
-          <img src={img}  className="imgsCarrousel"alt={`Imagen ${i + 1} de ${gimnasio.nombre}`} 
+          <img src={img}  className="imgsCarrousel"alt={`Imagen ${i + 1} de ${gimnasio.nombre}` } 
             loading="lazy"
             decoding="async"
           />
