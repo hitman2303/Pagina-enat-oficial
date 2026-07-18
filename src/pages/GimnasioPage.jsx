@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import Gimnasios from "../data/gimnasios";
-import GimnasioDetalle from "../componentes/GimnasioDetalle";
+import GimnasioDetalle from "../componentes/sections/GimnasioDetalle";
 import Navtae from "@/componentes/Nav";
 import Footer from "@/componentes/Footer";
 import "../styles/GimnasioPage.css";

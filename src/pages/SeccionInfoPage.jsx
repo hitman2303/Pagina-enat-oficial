@@ -1,6 +1,6 @@
-import Footer from "../componentes/Footer";
+import Footer from "../componentes/layout/Footer";
 import "../styles/SeccionInfoPage.css";
-import Navtae from "../componentes/Nav";
+import Navtae from "../componentes/layout/Nav";
 
 const SeccionInfoPage = () => {
   return (

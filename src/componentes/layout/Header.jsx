@@ -4,7 +4,7 @@ function Header(){
   <header className="headerimg" data-aos="fade">
     <div className="header-content">
       <img
-        src="/imgs/escudo de la enat.jpeg"
+        src="/imgs/logos/escudo de la enat.jpeg"
         alt="Escuela Nacional de Taekwon-Do ITF"
         className="header-logo"
       />

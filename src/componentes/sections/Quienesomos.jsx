@@ -14,13 +14,13 @@ function Quienes() {
         <div className="quienes-media">
           <Carousel fade interval={3500} controls indicators={false}>
             <Carousel.Item>
-              <img src="/imgs/foto.jpeg" alt="Escuela ENAT" />
+              <img src="/imgs/logos/foto.jpeg" alt="Escuela ENAT" />
             </Carousel.Item>
             <Carousel.Item>
-              <img src="/imgs/2.jpeg" alt="Clase de Taekwon-Do" />
+              <img src="/imgs/logos/2.jpeg" alt="Clase de Taekwon-Do" />
             </Carousel.Item>
             <Carousel.Item>
-              <img src="/imgs/3.jpeg" alt="Alumnos ENAT" />
+              <img src="/imgs/logos/3.jpeg" alt="Alumnos ENAT" />
             </Carousel.Item>
           </Carousel>
         </div>

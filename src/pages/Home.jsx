@@ -4,11 +4,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Navtae from "@/componentes/Nav";
 import Header from "@/componentes/Header";
-import Quienes from "../componentes/quienesomos";
-import Gimnasio from "../componentes/Gimnasio";
-import FormularioContacto from "../componentes/contactanos";
+import Quienes from "../componentes/sections/Quienesomos";
+import Gimnasio from "../componentes/sections/Gimnasio";
+import FormularioContacto from "../componentes/sections/Contactanos";
 import Footer from "@/componentes/Footer";
-import SeccionInfoHome from "../componentes/SeccionInfoHome";
+import SeccionInfoHome from "../componentes/sections/SeccionInfoHome";
 import Gimnasios from "../data/gimnasios";
 
 export default function Home() {
