@@ -6,7 +6,7 @@ const SeccionInfoHome = () => {
     <section className="info-home-section">
       <div className="info-home-container">
         
-        <div className="info-home-image">
+        <div className="info-home-image" data-aos="fade-right">
           <Link to="/nuestra-historia">
             <img
               src="/imgs/seccion/Imagen1.jpg"
@@ -16,7 +16,8 @@ const SeccionInfoHome = () => {
           </Link>
         </div>
 
-        <div className="info-home-content">
+        <div className="info-home-content"  data-aos="fade-left"
+data-aos-delay="200">
           <h2 className="info-title">Mas allá de la técnica</h2>
           <p className="info-text">
             {/** TU TEXTO ACÁ */}

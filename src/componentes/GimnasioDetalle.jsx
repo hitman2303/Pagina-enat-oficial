@@ -5,10 +5,11 @@ import { FaWhatsapp, FaInstagram, FaFacebook, FaTiktok } from "react-icons/fa";
 export default function GimnasioDetalle({ gimnasio }) {
   return (
     <section className="gym-detail-container">
-      <article className="gym-detail-card">
+      <article className="gym-detail-card" data-aos="fade-up">
 
         {/* COLUMNA IZQUIERDA – CAROUSEL */}
-        <div className="gym-detail-media">
+        <div className="gym-detail-media"  data-aos="fade-right"
+    data-aos-delay="150">
     <Carousel fade interval={4500}
         pause={false}
         touch>
@@ -25,7 +26,8 @@ export default function GimnasioDetalle({ gimnasio }) {
   </div>
 
         {/* COLUMNA DERECHA – INFO */}
-        <div className="gym-detail-body">
+        <div className="gym-detail-body"   data-aos="fade-left"
+    data-aos-delay="250">
           <h2 className="gym-detail-title">{gimnasio.nombre}</h2>
           <p className="gym-detail-text">
             Nuestro gimnasio <strong>{gimnasio.nombre}</strong> está ubicado en{" "}
@@ -42,7 +44,7 @@ export default function GimnasioDetalle({ gimnasio }) {
             <h4 className="gym-detail-schedule-title">Días y horarios</h4>
 
             {Object.entries(gimnasio.horarios).map(([dia, clases]) => (
-              <div className="gym-detail-schedule-day" key={dia}>
+              <div className="gym-detail-schedule-day" key={dia} >
                 <strong>{dia}</strong>
                 <ul>
                   {clases.map((c, i) => (
@@ -83,7 +85,8 @@ export default function GimnasioDetalle({ gimnasio }) {
 </nav>
 
           </div>
-           <section className="gym-map">
+           <section className="gym-map"    data-aos="zoom-in"
+    data-aos-delay="300">
             <h4>¿Dónde estamos?</h4>
 
             <iframe

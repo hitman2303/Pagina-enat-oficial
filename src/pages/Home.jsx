@@ -51,8 +51,9 @@ export default function Home() {
           <h2 id="h2Gim">Nuestros gimnasios</h2>
 
           <div className="gimnasio-grid">
-            {Gimnasios.map((g) => (
-              <Gimnasio key={g.slug} gimnasio={g} />
+            {Gimnasios.map((g, index) => (
+              <Gimnasio key={g.slug}   data-aos="fade-up"
+    data-aos-delay={index*100} gimnasio={g} />
             ))}
           </div>
         </section>

@@ -1,7 +1,7 @@
 
 function Header(){
  return (
-  <header className="headerimg">
+  <header className="headerimg" data-aos="fade">
     <div className="header-content">
       <img
         src="/imgs/escudo de la enat.jpeg"

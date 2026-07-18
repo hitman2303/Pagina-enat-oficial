@@ -4,7 +4,7 @@ import "../styles/quienes.css";
 
 function Quienes() {
   return (
-    <section className="quienes-container">
+    <section className="quienes-container" data-aos="fade-up">
      <section className="quienes-wrapper">
 
 

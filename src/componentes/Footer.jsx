@@ -3,7 +3,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-<footer className="footer d-flex justify-content-between align-items-center flex-wrap px-4 py-3">
+<footer className="footer d-flex justify-content-between align-items-center flex-wrap px-4 py-3" data-aos="fade-up">
   <div className="footer-column">
     <h4>Secciones</h4>
     <ul>
