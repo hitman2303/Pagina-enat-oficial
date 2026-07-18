@@ -1,7 +1,4 @@
-import { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import Navtae from "@/componentes/Nav";
 import Header from "@/componentes/Header";
 import Quienes from "../componentes/sections/Quienesomos";
@@ -12,16 +9,13 @@ import SeccionInfoHome from "../componentes/sections/SeccionInfoHome";
 import Gimnasios from "../data/gimnasios";
 
 export default function Home() {
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
 
-  const items = [
-    { nombre: "¿Quiénes somos?", href: "#quienes-somos" },
-    { nombre: "Gimnasios", href: "#gimnasios" },
-    { nombre: "Contáctanos", href: "#contacto" }
-  ];
-
+ const navItems = [
+  { nombre: "¿Quiénes somos?", href: "#quienes-somos" },
+  { nombre: "Nuestra historia", href: "#nuestra-historia" },
+  { nombre: "Gimnasios", href: "#gimnasios" },
+  { nombre: "Contáctanos", href: "#contacto" },
+];
   return (
     <>
       <Helmet>
@@ -30,13 +24,29 @@ export default function Home() {
         </title>
 
         <meta
-          name="description"
-          content="Encontrá gimnasios oficiales de Taekwon-Do ITF de la Escuela Nacional ENAT."
+          name="keywords"
+          content="
+          Taekwon-Do ITF,
+          ENAT,
+          Escuela Nacional,
+          Taekwondo Buenos Aires,
+          clases de Taekwondo,
+          gimnasios Taekwondo"
+        />
+
+        <meta
+          property="og:title"
+          content="Escuela Nacional de Taekwon-Do ITF"
+        />
+
+        <meta
+          property="og:description"
+          content="Encontrá tu gimnasio oficial ENAT más cercano."
         />
       </Helmet>
 
       <header>
-        <Navtae items={items} />
+      <Navtae items={navItems} />
         <Header />
       </header>
 
@@ -52,8 +62,13 @@ export default function Home() {
 
           <div className="gimnasio-grid">
             {Gimnasios.map((g, index) => (
-              <Gimnasio key={g.slug}   data-aos="fade-up"
-    data-aos-delay={index*100} gimnasio={g} />
+              <div
+                key={g.slug}
+                data-aos="fade-up"
+                data-aos-delay={index * 100}
+              >
+                <Gimnasio gimnasio={g} />
+              </div>
             ))}
           </div>
         </section>

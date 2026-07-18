@@ -39,7 +39,9 @@ li{
   margin: 0 10px;
   text-transform: uppercase;
 }
-
+.nav-logo{
+    width:50px;
+}
 .navbar-nav .nav-link:hover {
   color: #3228c6;
 }

@@ -13,8 +13,7 @@ function Navtae({ items = [] }) {
           <img
             src="/imgs/logos/escudo de la enat.jpeg"
             alt="Logo ENAT"
-            className="img-fluid"
-            style={{ width: "50px" }}
+            className="nav-logo"    loading="eager"
           />
         </Navbar.Brand>
 

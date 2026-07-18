@@ -7,10 +7,13 @@ function Header(){
         src="/imgs/logos/escudo de la enat.jpeg"
         alt="Escuela Nacional de Taekwon-Do ITF"
         className="header-logo"
+        loading="eager"
       />
 
       <h1>Escuela Nacional de Taekwon-Do</h1>
-      <h2>Pasion por la excelencia</h2>
+      <p className="header-subtitle">
+        Pasión por la excelencia
+      </p>
     </div>
   </header>
 );
