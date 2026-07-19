@@ -9,6 +9,9 @@ function Header(){
         className="header-logo"
         loading="eager"
         fetchPriority="high"
+        decoding="async"
+        width="70"
+        height="84.609"
       />
 
       <h1>Escuela Nacional de Taekwon-Do</h1>

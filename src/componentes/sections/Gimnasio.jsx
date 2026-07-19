@@ -42,7 +42,10 @@ itemType="https://schema.org/SportsActivityLocation"
           src={gimnasio.logo}
           alt={`Logo del gimnasio ${gimnasio.nombre} de Taekwon-Do ITF`}
           loading="lazy"
-          itemProp="logo"
+          decoding="async"
+          fetchPriority="low"
+          width="220"
+          height="220"
         />
 
         <div>
