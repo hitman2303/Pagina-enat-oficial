@@ -12,7 +12,6 @@ export default function Home() {
 
  const navItems = [
   { nombre: "¿Quiénes somos?", href: "#quienes-somos" },
-  { nombre: "Nuestra historia", href: "#nuestra-historia" },
   { nombre: "Gimnasios", href: "#gimnasios" },
   { nombre: "Contáctanos", href: "#contacto" },
 ];
