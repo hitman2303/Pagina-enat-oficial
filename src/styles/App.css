@@ -14,15 +14,13 @@ body {
   font-family: var(--font-text);
 }
 
-html, body, #root {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  min-height: 100vh;
+body{
+margin:0;
+font-family:var(--font-text);
+background:#fff;
+color:#222;
 }
-li{
-  list-style: none;
-}
+
 #h2Gim {
   text-align: center;
   font-family: var(--font-title);
@@ -97,7 +95,7 @@ color: #1e3a8a;
 }
 
 /* SUBTITULO */
-.header-content {
+.header-content p{
   font-family: "Montserrat", sans-serif;
  color: #dc2626;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
@@ -106,7 +104,7 @@ color: #1e3a8a;
   font-weight: 500;
 }
 .header-content h1,
-.header-content h2 {
+.header-content p {
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
   position: relative;
 }

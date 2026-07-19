@@ -1,39 +1,26 @@
 .not-found{
-    min-height:70vh;
-
-    display:flex;
-    flex-direction:column;
-
-    justify-content:center;
-    align-items:center;
-
-    text-align:center;
-
-    padding:40px;
+  min-height:70vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:40px;
 }
 
 .not-found h1{
-
-    font-size:7rem;
-
-    color:#c1121f;
-
-    font-weight:700;
-
+  font-size:7rem;
+  font-weight:700;
+  color:#c1121f;
+  margin:0;
 }
 
 .not-found h2{
-
-    margin:15px 0;
-
+  margin:16px 0;
 }
 
 .not-found p{
-
-    max-width:500px;
-
-    color:#666;
-
-    margin-bottom:30px;
-
+  max-width:500px;
+  margin-bottom:30px;
+  color:#666;
 }
