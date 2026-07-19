@@ -16,6 +16,50 @@ export default function Home() {
   { nombre: "Gimnasios", href: "#gimnasios" },
   { nombre: "Contáctanos", href: "#contacto" },
 ];
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "SportsOrganization",
+
+  name: "Escuela Nacional de Taekwon-Do ITF",
+  alternateName: "ENAT",
+
+  url: "https://escuelaenat.netlify.app",
+
+  logo:
+    "https://escuelaenat.netlify.app/imgs/logos/escudo%20de%20la%20enat.jpeg",
+
+  image:
+    "https://escuelaenat.netlify.app/imgs/logos/escudo%20de%20la%20enat.jpeg",
+
+  description:
+    "Escuela Nacional de Taekwon-Do ITF con sedes en Buenos Aires.",
+
+  sport: "Taekwon-Do ITF",
+
+  areaServed: {
+    "@type": "State",
+    name: "Buenos Aires",
+  },
+
+  sameAs: [
+    "https://instagram.com/...",
+    "https://facebook.com/...",
+    "https://tiktok.com/..."
+  ],
+
+  hasPOS: Gimnasios.map((g) => ({
+    "@type": "SportsActivityLocation",
+    name: g.nombre,
+    address: {
+  "@type": "PostalAddress",
+  streetAddress: g.direccion,
+  addressLocality: g.zona,
+  addressRegion: "Buenos Aires",
+  addressCountry: "AR"
+},
+    url: `https://escuelaenat.netlify.app/gimnasios/${g.slug}`
+  }))
+};
   return (
     <>
       <Helmet>
@@ -57,6 +101,25 @@ export default function Home() {
     property="og:type"
     content="website"
   />
+  <script type="application/ld+json">
+  {JSON.stringify(organizationSchema)}
+</script>
+<meta name="twitter:card" content="summary_large_image"/>
+
+<meta
+name="twitter:title"
+content="Escuela Nacional de Taekwon-Do ITF"
+/>
+
+<meta
+name="twitter:description"
+content="Conocé nuestros gimnasios oficiales."
+/>
+
+<meta
+name="twitter:image"
+content="https://escuelaenat.netlify.app/imgs/logos/escudo-enat.jpeg"
+/>
       </Helmet>
 
       <header>
