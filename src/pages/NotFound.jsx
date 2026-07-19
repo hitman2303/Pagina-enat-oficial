@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import Navtae from "../componentes/Nav";
-import Footer from "../componentes/Footer";
-import "../componentes/styles/NotFound.css";
+import Navtae from "../componentes/layout/Nav";
+import Footer from "../componentes/layout/Footer";
+import "../styles/NotFound.css";
 export default function NotFound() {
 
   const items = [

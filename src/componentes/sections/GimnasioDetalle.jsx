@@ -1,5 +1,4 @@
 import Carousel from "react-bootstrap/Carousel";
-import "../styles/GimnasioPage.css";
 import { FaWhatsapp, FaInstagram, FaFacebook, FaTiktok } from "react-icons/fa";
 import SocialLinks from "../SocialLinks";
 import Horarios from "../Horarios";

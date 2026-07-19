@@ -11,7 +11,7 @@ function Navtae({ items = [] }) {
         {/* LOGO */}
         <Navbar.Brand className="me-lg-5">
           <img
-            src="/imgs/logos/escudo de la enat.jpeg"
+            src="/imgs/logos/escudo de la enat.WebP"
             alt="Logo ENAT"
             className="nav-logo"    loading="eager"
           />

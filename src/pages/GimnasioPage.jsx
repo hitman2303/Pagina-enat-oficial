@@ -2,8 +2,8 @@ import { useParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import Gimnasios from "../data/gimnasios";
 import GimnasioDetalle from "../componentes/sections/GimnasioDetalle";
-import Navtae from "@/componentes/Nav";
-import Footer from "@/componentes/Footer";
+import Navtae from "@/componentes/layout/Nav";
+import Footer from "@/componentes/layout/Footer";
 import "../styles/GimnasioPage.css";
 export default function GimnasioPage() {
   const { slug } = useParams();

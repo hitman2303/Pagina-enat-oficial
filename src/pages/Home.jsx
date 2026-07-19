@@ -1,10 +1,10 @@
 import { Helmet } from "react-helmet-async";
-import Navtae from "@/componentes/Nav";
-import Header from "@/componentes/Header";
+import Navtae from "../componentes/layout/Nav";
+import Header from "../componentes/layout/Header";
 import Quienes from "../componentes/sections/Quienesomos";
 import Gimnasio from "../componentes/sections/Gimnasio";
 import FormularioContacto from "../componentes/sections/Contactanos";
-import Footer from "@/componentes/Footer";
+import Footer from "../componentes/layout/Footer";
 import SeccionInfoHome from "../componentes/sections/SeccionInfoHome";
 import Gimnasios from "../data/gimnasios";
 

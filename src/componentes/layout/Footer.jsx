@@ -12,7 +12,7 @@ const Footer = () => {
   </div>
 
   <div className="footer-column text-center">
-    <img src="/imgs/logos/escudo de la enat.jpeg" alt="Logo ENAT" className="footer-logo" loading="lazy" />
+    <img src="/imgs/logos/escudo de la enat.WebP" alt="Logo ENAT" className="footer-logo" loading="lazy" />
   </div>
 
   <div className="footer-column text-end text-md-end w-100 w-md-auto mt-3 mt-md-0">

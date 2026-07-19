@@ -16,7 +16,7 @@ const SeccionInfoPage = () => {
         <section className="info-page-card">
             <div className="info-page-image">
           <img
-            src="/imgs/seccion/Imagen.jpg"
+            src="/imgs/seccion/Imagen.WebP"
             alt="Nuestra historia"
             loading="lazy"
           />

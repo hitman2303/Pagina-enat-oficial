@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../styles/SeccionInfoHome.css";
+import "../../styles/SeccionInfoHome.css";
 
 const SeccionInfoHome = () => {
   return (
@@ -9,7 +9,7 @@ const SeccionInfoHome = () => {
         <div className="info-home-image" data-aos="fade-right">
           <Link to="/nuestra-historia">
             <img
-              src="/imgs/seccion/Imagen1.jpg"
+              src="/imgs/seccion/Imagen1.WebP"
               alt="Nuestra historia"
               loading="lazy"
             />

@@ -1,14 +1,14 @@
 const Gimnasios =[
     {
-      logo: "/imgs/logos/villaluro.jpg",
+      logo: "/imgs/logos/villaluro.WebP",
       nombre: "Amigos de Villa Luro",
       slug: "amigos-de-villa-luro",
       direccion: "Ramon falcon 5176 (Villa luro)",
       maps: "https://maps.app.goo.gl/AVHE42hRKJEZB1FQ7",
       mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.6251967158278!2d-58.5003026!3d-34.6389107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9b101010d97%3A0x1e0f01fd47a2b470!2sAsociaci%C3%B3n%20Vecinal%20de%20Fomento%20Los%20Amigos%20de%20Villa%20Luro!5e0!3m2!1ses-419!2sar!4v1769095050701!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/gimnasios/villaluro/1.jpg",
-        "/imgs/gimnasios/villaluro/2.jpg",
+        "/imgs/gimnasios/villaluro/1.WebP",
+        "/imgs/gimnasios/villaluro/2.WebP",
       ],
       horarios: {
         Lunes: [
@@ -48,16 +48,16 @@ const Gimnasios =[
 }
     },
     {
-      logo: "/imgs/logos/federacion.png",
+      logo: "/imgs/logos/federacion.WebP",
       nombre: "Federacion Caballito",
       slug: "federacion-caballito",
       direccion: "Av. La Plata 1151 (Caballito)",
       maps: "https://maps.app.goo.gl/gaYX7VTy2py874v56",
       mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1641.511947836532!2d-58.42670918555747!3d-34.62883642478778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca52e454d945%3A0x81542526e7984357!2sFederaci%C3%B3n%20Caballito!5e0!3m2!1ses-419!2sar!4v1769095984660!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/gimnasios/federacion/1.jpg",
-        "/imgs/gimnasios/federacion/2.jpg",
-        "/imgs/gimnasios/federacion/3.jpg"
+        "/imgs/gimnasios/federacion/1.WebP",
+        "/imgs/gimnasios/federacion/2.WebP",
+        "/imgs/gimnasios/federacion/3.WebP"
       ],
       horarios: {
         Lunes: [
@@ -92,16 +92,16 @@ const Gimnasios =[
 }
     },
     {
-      logo: "/imgs/logos/calabresa.jfif",
+      logo: "/imgs/logos/calabresa.WebP",
       nombre: "Asociación La Providencia",
       slug: "asociacion-la-providencia",
       direccion: "Yerbal 2636 (Flores)",
       maps: "https://maps.app.goo.gl/9NW9c8JdPw55DcWo6",
       mapsEmbed:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13132.132419107931!2d-58.47690448261717!3d-34.62860369999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9890e28f54d%3A0xad7fcad6daaa5ed1!2sAsociaci%C3%B3n%20Calabresa%20-%20La%20Providencia!5e0!3m2!1ses-419!2sar!4v1769097575583!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/gimnasios/calabresa/1.jpg",
-        "/imgs/gimnasios/calabresa/2.jpg",
-        "/imgs/gimnasios/calabresa/3.jpg"
+        "/imgs/gimnasios/calabresa/1.WebP",
+        "/imgs/gimnasios/calabresa/2.WebP",
+        "/imgs/gimnasios/calabresa/3.WebP"
       ],
       horarios: {
         Lunes: [
@@ -126,15 +126,15 @@ const Gimnasios =[
     tiktok: null
   }
     },{
-      logo: "/imgs/logos/huergo.png",
+      logo: "/imgs/logos/huergo.WebP",
       nombre: "Instituto Huergo",
       slug: "instituto-huergo",
       direccion: "Perú 759 (San telmo)",
       maps:"https://maps.app.goo.gl/LspnazYuUNVdVE446",
       mapsEmbed:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d410.4377997526805!2d-58.3749317!3d-34.6167423!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb2af59c9b6d%3A0xa54886cb2d329691!2sInstituto%20Industrial%20Luis%20A.%20Huergo!5e0!3m2!1ses-419!2sar!4v1769097613563!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/gimnasios/huergo/1.jpg",
-        "/imgs/gimnasios/huergo/2.jpg"
+        "/imgs/gimnasios/huergo/1.WebP",
+        "/imgs/gimnasios/huergo/2.WebP"
       ],
       horarios: {
         Miercoles: [
@@ -151,15 +151,15 @@ const Gimnasios =[
     tiktok: "https://www.tiktok.com/@taekwondovallejos"
   }
     },{
-      logo: "/imgs/logos/santojanni.png",
+      logo: "/imgs/logos/santojanni.WebP",
       nombre: "Polideportivo Santojanni",
       slug: "polideportivo-santojanni",
       direccion: "Patron 6222 (Liniers)",
       maps: "https://maps.app.goo.gl/BpZ6RqMmad6VgDGr5",
       mapsEmbed:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d820.5831803454121!2d-58.5132849!3d-34.6462993!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc995259866eb%3A0x392d25e78a814223!2sPolideportivo%20Santojanni!5e0!3m2!1ses-419!2sar!4v1769097759940!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/gimnasios/santojanni/1.jpg",
-        "/imgs/gimnasios/santojanni/2.jpg"
+        "/imgs/gimnasios/santojanni/1.WebP",
+        "/imgs/gimnasios/santojanni/2.WebP"
       ],
       horarios: {
         Martes: [
@@ -181,15 +181,15 @@ const Gimnasios =[
   tiktok:null 
 }
     },{
-      logo: "/imgs/logos/ideal.jpg",
+      logo: "/imgs/logos/ideal.WebP",
       nombre: "El ideal",
       slug: "el-ideal",
       direccion: "Montiel 5142 (Lugano)",
       maps: "https://maps.app.goo.gl/MFsEEsrQ7cgV33MRA",
       mapsEmbed: "https://www.google.com/maps/embed?pb=!3m2!1ses-419!2sar!4v1769098003193!5m2!1ses-419!2sar!6m8!1m7!1sZPKsgNHAv8bwfyc5i1_F7g!2m2!1d-34.68857003140448!2d-58.4773557758297!3f349.4795494612969!4f2.6272375242905923!5f0.7820865974627469",
       imagenes: [
-        "/imgs/gimnasios/ideal/1.jpg",
-        "/imgs/gimnasios/ideal/2.jpg"
+        "/imgs/gimnasios/ideal/1.WebP",
+        "/imgs/gimnasios/ideal/2.WebP"
       ],
       horarios: {
         Lunes: [
@@ -212,15 +212,15 @@ const Gimnasios =[
   tiktok:null 
 }
     },{
-      logo: "/imgs/logos/asis.jpg",
+      logo: "/imgs/logos/asis.WebP",
       nombre: "Centro Asis",
       slug: "centro-asis",
       direccion: "Guamini 1728 (Mataderos)",
       maps:"https://maps.app.goo.gl/V6SbznferZKig5TH6",
       mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.892151781156!2d-58.5158755!3d-34.6574265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc90bfcbabbb3%3A0x3dfd0406783e39bf!2sCentro%20Cultural%20y%20Recreativo%20As%C3%ADs!5e0!3m2!1ses-419!2sar!4v1769098037921!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/gimnasios/asis/1.jpg",
-        "/imgs/gimnasios/asis/2.jpg"
+        "/imgs/gimnasios/asis/1.WebP",
+        "/imgs/gimnasios/asis/2.WebP"
       ],
       horarios: {
         Martes: [
@@ -242,15 +242,15 @@ const Gimnasios =[
   tiktok: null
 }
     },{
-      logo: "/imgs/logos/quickplanet.jpeg",
+      logo: "/imgs/logos/quickplanet.WebP",
       nombre: "Multiespacio Quick Planet",
       slug: "multiespacio-quick-planet",
       direccion: "Av. Varela 305 (Flores)",
       maps: "https://maps.app.goo.gl/no2XoXyHMgfMKkEF6",
       mapsEmbed:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.845128833525!2d-58.464137099999995!3d-34.63335380000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9006a43f56d%3A0x5a9ce565d215040!2sQUICK%20PLANET!5e0!3m2!1ses-419!2sar!4v1769098059885!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/gimnasios/quick-planet/1.jpg",
-        "/imgs/gimnasios/quick-planet/2.jpg"
+        "/imgs/gimnasios/quick-planet/1.WebP",
+        "/imgs/gimnasios/quick-planet/2.WebP"
       ],
       horarios: {
         lunes:[
@@ -281,15 +281,15 @@ const Gimnasios =[
     tiktok: null
   }
     },{
-      logo: "/imgs/logos/fermin.jpg",
+      logo: "/imgs/logos/fermin.WebP",
       nombre: "Espacio Fermín",
       slug: "espacio-fermin",
       direccion: "Pedernera 135 (Flores)",
       maps: "https://maps.app.goo.gl/K2xcuQHkPpEvoTHA8",
       mapsEmbed:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d205.1839773051819!2d-58.4637917!3d-34.6308646!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9007492ce61%3A0x9fa1fb2b435e847d!2sEspacio%20Cultural%20Ferm%C3%ADn!5e0!3m2!1ses-419!2sar!4v1769098104383!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/gimnasios/fermin/1.jpg",
-        "/imgs/gimnasios/fermin/2.jpg"
+        "/imgs/gimnasios/fermin/1.WebP",
+        "/imgs/gimnasios/fermin/2.WebP"
       ],
       horarios: {
         Martes: [
@@ -312,15 +312,15 @@ const Gimnasios =[
   tiktok: null
 }
     },{
-      logo: "/imgs/logos/elpoliflores.jfif",
+      logo: "/imgs/logos/elpoliflores.WebP",
       nombre: "El poli de flores",
       slug: "el-poli-de-flores",
       direccion: "Av. Coronel Esteban Bonorino 897 (Flores)",
       maps: "https://maps.app.goo.gl/zYwxzZztWYFC8L9G6",
       mapsEmbed:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3282.6779295701717!2d-58.4593748!3d-34.6375784!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca2cdc3b5423%3A0x9c21fd5e94f8d667!2sEl%20Poli!5e0!3m2!1ses-419!2sar!4v1769098190470!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/gimnasios/elpoliflores/1.jpg",
-        "/imgs/gimnasios/elpoliflores/2.jpg"
+        "/imgs/gimnasios/elpoliflores/1.WebP",
+        "/imgs/gimnasios/elpoliflores/2.WebP"
       ],
       horarios: {
         Lunes: [
@@ -341,16 +341,16 @@ const Gimnasios =[
   tiktok: null
 }
     },{
-      logo: "/imgs/logos/la-grieta.jpeg",
+      logo: "/imgs/logos/la-grieta.WebP",
       nombre: "Centro cultural la grieta",
       slug: "centro-cultural-la-grieta",
       direccion: "Adolfo Alsina 2143 (Balvanera)",
       maps: "https://maps.app.goo.gl/tz67WAmLPntfQtrW6",
       mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d345.1570561582038!2d-58.39674547592455!3d-34.611599804295786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccae7d7e40f69%3A0xd16eafadc83019c!2sLa%20Grieta!5e0!3m2!1ses-419!2sar!4v1769098249114!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/gimnasios/la-grieta/1.jpg",
-        "/imgs/gimnasios/la-grieta/2.jpg",
-        "/imgs/gimnasios/la-grieta/3.jpg"
+        "/imgs/gimnasios/la-grieta/1.WebP",
+        "/imgs/gimnasios/la-grieta/2.WebP",
+        "/imgs/gimnasios/la-grieta/3.WebP"
       ],
       horarios: {
         Martes: [
@@ -378,16 +378,16 @@ const Gimnasios =[
   tiktok: null
 }
     },{
-      logo: "/imgs/logos/la-vertiente.jpg",
+      logo: "/imgs/logos/la-vertiente.WebP",
       nombre: "La vertiente",
       slug: "la-vertiente",
       direccion: "Pichincha 180 (Balvanera)",
       maps: "https://maps.app.goo.gl/exEWPUgzUhmaW88Z6",
       mapsEmbed:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d205.23151438596062!2d-58.39901173664137!3d-34.61163989255448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccae8bd36417d%3A0xc9f13bbfc3593add!2sPichincha%20180%2C%20C1082ACD%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1769098346994!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/gimnasios/la-vertiente/1.jpg",
-        "/imgs/gimnasios/la-vertiente/2.jpg",
-        "/imgs/gimnasios/la-vertiente/3.jpg"
+        "/imgs/gimnasios/la-vertiente/1.WebP",
+        "/imgs/gimnasios/la-vertiente/2.WebP",
+        "/imgs/gimnasios/la-vertiente/3.WebP"
       ],
       horarios: {
         Miercoles: [
@@ -413,16 +413,16 @@ const Gimnasios =[
   tiktok: null
 }
     },{
-      logo: "/imgs/logos/sociedad-de-fomento.jpg",
+      logo: "/imgs/logos/sociedad-de-fomento.WebP",
       nombre: "sociedad de fomento Domingo f. Sarmiento",
       slug: "sociedad-de-fomento-domingo-f-sarmiento",
       direccion: "Bompland 3081 (Laferrere)",
       maps: "https://maps.app.goo.gl/gxb55NBmZmUrArrM7",
       mapsEmbed:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2757.2914333764534!2d-58.612959909554725!3d-34.73063155395713!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc5253eb639cb%3A0x77ddb83e591dc933!2sClases%20de%20taekwondo%20ENAT%20sociedad%20de%20fomento!5e0!3m2!1ses-419!2sar!4v1769098407679!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/gimnasios/sociedad/1.jpg",
-        "/imgs/gimnasios/sociedad/2.jpg",
-        "/imgs/gimnasios/sociedad/3.jpg"
+        "/imgs/gimnasios/sociedad/1.WebP",
+        "/imgs/gimnasios/sociedad/2.WebP",
+        "/imgs/gimnasios/sociedad/3.WebP"
       ],
       horarios: {
         Jueves: [
@@ -442,16 +442,16 @@ const Gimnasios =[
   tiktok: "https://www.tiktok.com/@taekwondovallejos"
 }
     },{
-      logo: "/imgs/logos/fortinph.jpg",
+      logo: "/imgs/logos/fortinph.WebP",
       nombre: "Club social y deportivo el fortin",
       slug: "club-social-y-deportivo-el-fortin",
       direccion: "Sudamerica 3281 (Laferrere)",
       maps: "https://maps.app.goo.gl/yuNTfxMnPtFPSqqb9",
       mapsEmbed:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3279.2130692765973!2d-58.606616!3d-34.7250233!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc50068dddae7%3A0xabc5e21d791fdd11!2sTaekwondo%20ENAT%20el%20fort%C3%ADn%20laferrere!5e0!3m2!1ses-419!2sar!4v1769098455530!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/gimnasios/fortin/1.jpg",
-        "/imgs/gimnasios/fortin/2.jpg",
-        "/imgs/gimnasios/fortin/3.jpg"
+        "/imgs/gimnasios/fortin/1.WebP",
+        "/imgs/gimnasios/fortin/2.WebP",
+        "/imgs/gimnasios/fortin/3.WebP"
       ],
       horarios: {
         Miercoles: [
@@ -472,16 +472,16 @@ const Gimnasios =[
   tiktok: "https://www.tiktok.com/@taekwondovallejos"
 }
     },{
-      logo: "/imgs/logos/nueva-juventud.png",
+      logo: "/imgs/logos/nueva-juventud.WebP",
       nombre: "Club social y deportivo Nueva Juventud",
       slug: "club-social-y-deportivo-nueva-juventud",
       direccion: "Felipe Lavallol 2934 (Laferrere)",
       maps: "https://maps.app.goo.gl/Me66JDRpMSFV6q627",
       mapsEmbed:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3279.1777414104113!2d-58.6109505!3d-34.7259139!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc428bcae2f1f%3A0xbd99dde01ce37ea5!2sClub%20Social%20y%20Deportivo%20Nueva%20Juventud!5e0!3m2!1ses-419!2sar!4v1769098510586!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/gimnasios/nueva-juventud/1.jpg",
-        "/imgs/gimnasios/nueva-juventud/2.jpg",
-        "/imgs/gimnasios/nueva-juventud/3.jpg"
+        "/imgs/gimnasios/nueva-juventud/1.WebP",
+        "/imgs/gimnasios/nueva-juventud/2.WebP",
+        "/imgs/gimnasios/nueva-juventud/3.WebP"
       ],
       horarios: {
         Miercoles: [
@@ -501,15 +501,15 @@ const Gimnasios =[
   tiktok: "https://www.tiktok.com/@taekwondovallejos"
 }
     },{
-      logo: "/imgs/logos/sociedadcastillo.jpg",
+      logo: "/imgs/logos/sociedadcastillo.WebP",
       nombre: "Sociedad de fomento Carlos Casares",
       slug: "Sociedad-de-fomento-Carlos-Casares",
       direccion: "San Matias 1390 (Rafael Castillo)",
       maps: "https://maps.app.goo.gl/R13Ftnc9wLJqTAsm8",
       mapsEmbed:"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2703.4702115927903!2d-58.6142951!3d-34.7041789!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc6ecc1554681%3A0xdc4b7f7ed2d6b5e6!2sSociedad%20De%20Fomento%20Carlos%20Casares!5e1!3m2!1ses-419!2sar!4v1783999911254!5m2!1ses-419!2sar",
       imagenes: [
-        "/imgs/gimnasios/sociedad_castillo/1.jpg",
-        "/imgs/gimnasios/sociedad_castillo/2.jpg"
+        "/imgs/gimnasios/sociedad_castillo/1.WebP",
+        "/imgs/gimnasios/sociedad_castillo/2.WebP"
       ],
       horarios: {
         Martes: [
