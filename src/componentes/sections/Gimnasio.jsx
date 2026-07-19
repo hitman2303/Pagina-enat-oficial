@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaWhatsapp, FaInstagram, FaFacebook, FaTiktok } from "react-icons/fa";
-
+import SocialLinks from "../SocialLinks";
+import Horarios from "../Horarios";
 export default function Gimnasio({ gimnasio }) {
   const [open, setOpen] = useState(false);
 
@@ -36,8 +37,12 @@ export default function Gimnasio({ gimnasio }) {
       </header>
 
       {/* INFORMACIÓN PRINCIPAL */}
-      <section className="gym-info">
-        <p>
+      <section className="gym-info"
+      itemProp="address"
+    itemScope
+    itemType="https://schema.org/PostalAddress"
+      >
+        <p itemProp="streetAddress"> 
           <strong>Dirección:</strong>{" "}
           <span itemProp="streetAddress">{gimnasio.direccion}</span>
         </p>
@@ -46,7 +51,7 @@ export default function Gimnasio({ gimnasio }) {
             <h4>Profesores</h4>
             <ul>
               {gimnasio.instructores.map((p, index) => (
-                <li key={index} itemProp="employee">
+                <li key={p} itemProp="employee">
                   {p}
                 </li>
               ))}
@@ -71,7 +76,7 @@ export default function Gimnasio({ gimnasio }) {
 
         <button
           className="btn primary"
-          onClick={() => setOpen(!open)}
+         onClick={() => setOpen(prev => !prev)}
           aria-expanded={open}
           aria-controls={`${articleId}-detalles`}
         >
@@ -87,50 +92,16 @@ export default function Gimnasio({ gimnasio }) {
         >
           <div>
             <div>
-  <h4>Horarios de clases</h4>
-
-  {Object.entries(gimnasio.horarios).map(([dia, clases]) => (
-    <div key={dia} className="gym-day">
-      <strong>{dia}</strong>
-      <ul>
-        {clases.map((c, i) => (
-          <li key={i}>{c}</li>
-        ))}
-      </ul>
-    </div>
-  ))}
-</div>
+          <h4>Horarios de clases</h4>
+        <Horarios horarios={gimnasio.horarios} />
+          </div>
 
           </div>
           <h4 className="social-title">Visitá nuestras redes</h4>
-<nav className="gym-socials" aria-label="Redes sociales del gimnasio">
-  {gimnasio.redes?.whatsapp && (
-    <a href={gimnasio.redes.whatsapp} target="_blank" rel="noopener noreferrer">
-      <FaWhatsapp /> 
-    </a>
-  )}
-
-  {gimnasio.redes?.instagram && (
-    <a href={gimnasio.redes.instagram} target="_blank" rel="noopener noreferrer">
-      <FaInstagram />
-    </a>
-  )}
-
-  {gimnasio.redes?.facebook && (
-    <a href={gimnasio.redes.facebook} target="_blank" rel="noopener noreferrer">
-      <FaFacebook />
-    </a>
-  )}
-
-  {gimnasio.redes?.tiktok && (
-    <a href={gimnasio.redes.tiktok} target="_blank" rel="noopener noreferrer">
-      <FaTiktok />
-    </a>
-  )}
-</nav>
+          <SocialLinks redes={gimnasio.redes} />
 
 
-          <Link
+          <Link aria-label={`Ver información completa de ${gimnasio.nombre}`}
   to={`/gimnasios/${gimnasio.slug}`}
   className="btn primary"
 >
