@@ -6,7 +6,27 @@ import Horarios from "../Horarios";
 export default function GimnasioDetalle({ gimnasio }) {
   return (
     <section className="gym-detail-container">
-      <article className="gym-detail-card" data-aos="fade-up">
+      <article className="gym-detail-card" itemScope
+itemType="https://schema.org/SportsActivityLocation" data-aos="fade-up">
+  <meta
+itemProp="name"
+content={gimnasio.nombre}
+/>
+
+<meta
+itemProp="image"
+content={gimnasio.logo}
+/>
+
+<meta
+itemProp="url"
+content={`https://escuelaenat.netlify.app/gimnasios/${gimnasio.slug}`}
+/>
+
+<meta
+itemProp="description"
+content={`Escuela oficial de Taekwon-Do ITF ${gimnasio.nombre}`}
+/>
 
         {/* COLUMNA IZQUIERDA – CAROUSEL */}
         <div className="gym-detail-media"  data-aos="fade-right"

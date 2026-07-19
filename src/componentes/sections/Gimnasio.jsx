@@ -14,9 +14,28 @@ export default function Gimnasio({ gimnasio }) {
     <article
       className="gym-card"
       id={articleId}
-      itemScope
-      itemType="https://schema.org/SportsActivityLocation"
+     itemScope
+itemType="https://schema.org/SportsActivityLocation"
     >
+      <meta
+  itemProp="name"
+  content={gimnasio.nombre}
+/>
+
+<meta
+  itemProp="description"
+  content={`Escuela oficial de Taekwon-Do ITF ${gimnasio.nombre}`}
+/>
+
+<meta
+  itemProp="image"
+  content={gimnasio.logo}
+/>
+
+<meta
+  itemProp="url"
+  content={`https://escuelaenat.netlify.app/gimnasios/${gimnasio.slug}`}
+/>
       {/* HEADER DEL GIMNASIO */}
       <header className="gym-header">
         <img

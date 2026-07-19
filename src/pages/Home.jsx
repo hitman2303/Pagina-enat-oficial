@@ -23,26 +23,40 @@ export default function Home() {
           Escuela Nacional de Taekwon-Do ITF | Gimnasios y Clases en Buenos Aires
         </title>
 
-        <meta
-          name="keywords"
-          content="
-          Taekwon-Do ITF,
-          ENAT,
-          Escuela Nacional,
-          Taekwondo Buenos Aires,
-          clases de Taekwondo,
-          gimnasios Taekwondo"
-        />
+         <meta
+    name="description"
+    content="Encontrá gimnasios oficiales de Taekwon-Do ITF de la Escuela Nacional ENAT."
+  />
 
-        <meta
-          property="og:title"
-          content="Escuela Nacional de Taekwon-Do ITF"
-        />
+  <link
+    rel="canonical"
+    href="https://escuelaenat.netlify.app/"
+  />
 
-        <meta
-          property="og:description"
-          content="Encontrá tu gimnasio oficial ENAT más cercano."
-        />
+  <meta
+    property="og:title"
+    content="Escuela Nacional de Taekwon-Do ITF"
+  />
+
+  <meta
+    property="og:description"
+    content="Conocé nuestros gimnasios oficiales de Taekwon-Do ITF."
+  />
+
+  <meta
+    property="og:image"
+    content="https://escuelaenat.netlify.app/imgs/logos/escudo%20de%20la%20enat.jpeg"
+  />
+
+  <meta
+    property="og:url"
+    content="https://escuelaenat.netlify.app/"
+  />
+
+  <meta
+    property="og:type"
+    content="website"
+  />
       </Helmet>
 
       <header>

@@ -22,6 +22,36 @@ export default function GimnasioPage() {
     <>
       {/* SEO */}
       <Helmet>
+    <meta
+name="description"
+content={`Conocé horarios, instructores y ubicación del gimnasio ${gimnasio.nombre}.`}
+/>
+
+<link
+rel="canonical"
+href={`https://escuelaenat.netlify.app/gimnasios/${gimnasio.slug}`}
+/>
+
+<meta
+property="og:title"
+content={gimnasio.nombre}
+/>
+
+<meta
+property="og:description"
+content={`Escuela Oficial de Taekwon-Do ITF ${gimnasio.nombre}`}
+/>
+
+<meta
+property="og:image"
+content={`https://escuelaenat.netlify.app${gimnasio.logo}`}
+/>
+
+<meta
+property="og:type"
+content="website"
+/>
+
       <script type="application/ld+json">
 {JSON.stringify({
   "@context": "https://schema.org",

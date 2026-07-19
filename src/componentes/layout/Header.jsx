@@ -8,6 +8,9 @@ function Header(){
         alt="Escuela Nacional de Taekwon-Do ITF"
         className="header-logo"
         loading="eager"
+        fetchPriority="high"
+        width="1200"
+        height="800"
       />
 
       <h1>Escuela Nacional de Taekwon-Do</h1>

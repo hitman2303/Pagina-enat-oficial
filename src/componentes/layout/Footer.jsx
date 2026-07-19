@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-<footer className="footer d-flex justify-content-between align-items-center flex-wrap px-4 py-3" data-aos="fade-up">
+<footer className="footer d-flex justify-content-between align-items-center flex-wrap px-4 py-3" data-aos="fade-up" aria-label="Pie de pagina">
   <div className="footer-column">
     <h4>Secciones</h4>
     <ul>
